@@ -22,9 +22,9 @@ Expected runtime: about <YOUR MEASURED TIME> on a laptop CPU (2 epsilon values x
 
 The script prints the results table and the learned policies, and writes:
 
-- `results.txt`: mean and standard deviation of the success rate for each method (the numbers used in the report)
-- `training_curve.png`: Figure 1, SARSA training curve (moving average over 100 episodes, mean and std over 5 seeds)
-- `comparison.png`: Figure 2, greedy evaluation of SARSA vs. the random baseline
+- `Results/results.MD`: mean and standard deviation of the success rate for each method (the numbers used in the report)
+- `Fig/training_curve.png`: Figure 1, SARSA training curve (moving average over 100 episodes, mean and std over 5 seeds)
+- `Fig/comparison.png`: Figure 2, greedy evaluation of SARSA vs. the random baseline
 
 ## Random seeds
 
@@ -46,13 +46,13 @@ The script prints the results table and the learned policies, and writes:
 
 ## Files
 
-| File | Contents |
-|---|---|
-| `main.py` | Environment creation, random baseline, epsilon-greedy action choice, SARSA training, separate evaluation, experiments, results table, figures |
-| `requirements.txt` | Python dependencies |
-| `README.md` | This file |
-| `results.txt` | Output table  |
-| `training_curve.png`, `comparison.png` | Figures  |
+| File                                   | Contents |
+|----------------------------------------|---|
+| `main.py`                              | Environment creation, random baseline, epsilon-greedy action choice, SARSA training, separate evaluation, experiments, results table, figures |
+| `requirements.txt`                     | Python dependencies |
+| `README.md`                            | This file |
+| `Results/results.MD`                           | Output table  |
+| `Fig/training_curve.png`, `Fig/comparison.png` | Figures  |
 
 ## References
 
